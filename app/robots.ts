@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/admin'],
       },
     ],
-    sitemap: 'https://apexcarehospital.demo/sitemap.xml',
+    sitemap: 'https://verstech-clinic-demo.vercel.app/sitemap.xml',
   };
 }

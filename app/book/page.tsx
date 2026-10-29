@@ -11,7 +11,8 @@ import {
   ShieldCheck, 
   Clock, 
   CheckCircle2,
-  AlertCircle
+  AlertCircle,
+  Info
 } from 'lucide-react';
 import { CLINIC_PRESETS, DEFAULT_PRESET_KEY } from '@/lib/clinic-data';
 import TopHeader from '@/components/layout/TopHeader';
@@ -41,6 +42,22 @@ function BookingContent() {
           </Link>
           <span>/</span>
           <span className="text-[#123B66] font-semibold">Online Appointment Booking</span>
+        </div>
+
+        {/* Demo Architecture Notice (Phase 4 Compliance) */}
+        <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-amber-900 text-xs mb-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-3 shadow-sm">
+          <div className="flex items-start space-x-2.5">
+            <Info className="w-4 h-4 text-amber-600 flex-shrink-0 mt-0.5" />
+            <div>
+              <span className="font-bold">VERSTECH Labs Sales Demo Architecture:</span>
+              <p className="text-[11px] text-amber-800 mt-0.5">
+                This online booking system runs in client presentation demo mode using browser local storage. In a live production deployment, VERSTECH Labs connects this form to a HIPAA-compliant PostgreSQL database with SMS verification gateways and real-time clinic ERP synchronization.
+              </p>
+            </div>
+          </div>
+          <span className="text-[10px] font-bold uppercase tracking-wider bg-amber-200 text-amber-800 px-2 py-0.5 rounded flex-shrink-0">
+            Local Demo Store
+          </span>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">

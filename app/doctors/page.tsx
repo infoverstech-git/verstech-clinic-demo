@@ -16,7 +16,8 @@ import {
   Stethoscope,
   Sparkles,
   SlidersHorizontal,
-  RotateCcw
+  RotateCcw,
+  AlertCircle
 } from 'lucide-react';
 import { DOCTORS, DEPARTMENTS, CLINIC_PRESETS, DEFAULT_PRESET_KEY, Doctor } from '@/lib/clinic-data';
 import TopHeader from '@/components/layout/TopHeader';
@@ -167,6 +168,21 @@ export default function DoctorsPage() {
               </div>
             </div>
 
+          </div>
+        </section>
+
+        {/* Client Demo Notice (Phase 3 Requirement) */}
+        <section className="bg-amber-50 border-b border-amber-200 py-3 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs text-amber-900">
+            <div className="flex items-center space-x-2">
+              <AlertCircle className="w-4 h-4 text-amber-600 flex-shrink-0" />
+              <span>
+                <strong>Client Demo Showcase:</strong> Consultant profiles, degrees, OPD schedules, and fees shown are sample demonstration records for client evaluation.
+              </span>
+            </div>
+            <span className="text-[10px] font-bold uppercase tracking-wider bg-amber-200 text-amber-800 px-2 py-0.5 rounded flex-shrink-0">
+              Sample Faculty Data
+            </span>
           </div>
         </section>
 
