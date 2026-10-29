@@ -331,7 +331,7 @@ export const DOCTORS: Doctor[] = [
     availability: 'Mon - Sat: 11:00 AM - 3:00 PM',
     rating: 4.9,
     reviewCount: 418,
-    image: 'https://images.unsplash.com/photo-1594824813626-d6e87f87f4c5?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1614608682850-e0d6ed316d47?auto=format&fit=crop&w=600&q=80',
     about: 'Renowned for gentle pediatric care, infant nutrition counseling, vaccination roadmaps, and managing acute respiratory infections in toddlers.',
     education: [
       'MBBS — Fatima Jinnah Medical University',
@@ -499,7 +499,7 @@ export const DOCTORS: Doctor[] = [
     availability: 'Mon - Sat: 09:00 AM - 05:00 PM',
     rating: 4.8,
     reviewCount: 198,
-    image: 'https://images.unsplash.com/photo-1594824813716-e41c49b6b668?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&w=600&q=80',
     about: 'Expert sonologist performing high-resolution abdominal, obstetric Doppler, thyroid, and musculoskeletal ultrasounds with instant digital reporting.',
     education: [
       'MBBS — Punjab Medical College',
